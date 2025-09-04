@@ -1,10 +1,12 @@
 package ar.edu.unahur.obj2.marcas.cervezas;
 
+import ar.edu.unahur.obj2.marcas.pais.Pais;
+
 public abstract class Marca {
     private Double gramosDeLupulo;
-    private String pais;
+    private Pais pais;
 
-    public Marca(Double gramosDeLupulo, String pais) {
+    public Marca(Double gramosDeLupulo, Pais pais) {
         this.gramosDeLupulo = gramosDeLupulo;
         this.pais = pais;
     }
@@ -20,12 +22,12 @@ public abstract class Marca {
     }
 
 
-    public String getPais() {
+    public Pais getPais() {
         return pais;
     }
 
 
-    public void setPais(String pais) {
+    public void setPais(Pais pais) {
         this.pais = pais;
     }
 
