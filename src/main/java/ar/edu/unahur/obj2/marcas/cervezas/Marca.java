@@ -8,6 +8,27 @@ public abstract class Marca {
         this.gramosDeLupulo = gramosDeLupulo;
         this.pais = pais;
     }
+    
+
+    public Double getGramosDeLupulo() {
+        return gramosDeLupulo;
+    }
+
+
+    public void setGramosDeLupulo(Double gramosDeLupulo) {
+        this.gramosDeLupulo = gramosDeLupulo;
+    }
+
+
+    public String getPais() {
+        return pais;
+    }
+
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
 
     public abstract Double getGraduacion();
 }
